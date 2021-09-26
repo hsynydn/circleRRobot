@@ -28,7 +28,7 @@ class GUI:
     # This function configures the root tk window object
     def configure_window(self):
         self.window.pack_propagate(False)
-        self.window.title("CirclerRobot")
+        self.window.title("circleRRobot")
         self.window.attributes('-fullscreen', False)
         self.window.update()
         self.monitor_height = 800
